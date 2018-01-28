@@ -1,12 +1,50 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <title>Welcome</title>
-    <link rel="stylesheet" href="css/Homepage.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/Homepage.css">
 </head>
+<style>
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 20px;
+        overflow: hidden;
+        background-color: #333333;
+    }
+
+    li {
+        float: left;
+    }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            text-decoration: none;
+        }
+
+            li a:hover {
+                background-color: #111111;
+            }
+</style>
+
 <body>
-<p>Hello World!<\p>
-    <a href="homepage.html">go to page two</a>
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Restaurants</a></li>
+        <li><a href="">My Cart</a></li>
+        <li><a href="">My Order</a></li>
+        <li><a href="Signin.html">Sign In</a></li>
+    </ul>
+
+    <h1 style="font-family:verdana;" id="page_body">
+        Welcome...
+    </h1>
+    <footer id="about_us">
+        About Us
+    </footer>
 </body>
 </html>

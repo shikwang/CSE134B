@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <header>
+        <h1>Sign In</h1>
+    </header>
+    <p>Username:<input type="text" id="username" /></p>
+    <p>Password:<input type="password" id="password" /></p>
+    <p><input type="button" value="Sign In" onclick="return checkSignin()" id="SignInButton"/></p>
+    <p><input type="button" value="Sign Up" onclick="location.href = 'Signup.html'" id="SignUpButton"></p>
+</body>
+</html>
+
+<script>
+    function checkSignin() {
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+
+        if (username == '') {
+            alert("The username is empty.");
+        }
+    }
+</script>
