@@ -1,50 +1,38 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Welcome</title>
     <link rel="stylesheet" href="css/Homepage.css">
 </head>
-<style>
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 20px;
-        overflow: hidden;
-        background-color: #333333;
-    }
-
-    li {
-        float: left;
-    }
-
-        li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 30px;
-            text-decoration: none;
-        }
-
-            li a:hover {
-                background-color: #111111;
-            }
-</style>
 
 <body>
-    <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">Restaurants</a></li>
-        <li><a href="">My Cart</a></li>
-        <li><a href="">My Order</a></li>
-        <li><a href="Signin.html">Sign In</a></li>
-    </ul>
+    <div class="topnav" id="myTopnav">
+        <a href="" class="active">Home</a>
+        <a href="">Restaurants</a>
+        <a href="">My Cart</a>
+        <a href="">My Order</a>
+        <a href="Signin.html">Sign In</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
 
-    <h1 style="font-family:verdana;" id="page_body">
+    <h1>
         Welcome...
     </h1>
     <footer id="about_us">
         About Us
     </footer>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
 </body>
 </html>
