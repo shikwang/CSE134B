@@ -84,6 +84,7 @@
     <Content Include="css\ThankyouSignUp.css" />
     <Content Include="css\trackMealPage.css" />
     <Content Include="Homepage.html" />
+    <Content Include="food.png" />
     <Content Include="ThankyouOrder.html" />
     <Content Include="ThankyouSignUp.html" />
     <Content Include="Signup.html" />
