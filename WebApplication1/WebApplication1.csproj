@@ -75,7 +75,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="a.jpeg" />
+    <Content Include="b.jpg" />
+    <Content Include="ChatPage.html" />
     <Content Include="checkOut.html" />
+    <Content Include="css\ChatPage.css" />
     <Content Include="css\checkOut.css" />
     <Content Include="css\Homepage.css" />
     <Content Include="css\SignIn.css" />
