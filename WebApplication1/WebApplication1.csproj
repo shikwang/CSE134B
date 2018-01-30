@@ -76,8 +76,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="checkOut.html" />
+    <Content Include="css\checkOut.css" />
     <Content Include="css\Homepage.css" />
     <Content Include="css\SignIn.css" />
+    <Content Include="css\SignUp.css" />
+    <Content Include="css\ThankyouOrder.css" />
+    <Content Include="css\ThankyouSignUp.css" />
+    <Content Include="css\trackMealPage.css" />
     <Content Include="Homepage.html" />
     <Content Include="ThankyouOrder.html" />
     <Content Include="ThankyouSignUp.html" />

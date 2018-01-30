@@ -1,0 +1,38 @@
+﻿body {
+    text-align: center;
+    background-color: #cbcbcb
+}
+
+header {
+    font-family: 'Tw Cen MT';
+    color: white;
+    font-size: 40px;
+}
+
+p {
+    font-family: 'Tw Cen MT';
+    color: white;
+    font-size: 20px;
+}
+
+button {
+    background-color: #9bef2e;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+}
+
+    button:hover {
+        opacity: 0.6;
+    }
+
+.container {
+    padding: 16px;
+    font-family: 'Tw Cen MT';
+    font-size: 20px;
+    color: white;
+    line-height: 200%;
+}

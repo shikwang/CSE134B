@@ -2,13 +2,24 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Check Out</title>
+    <link rel="stylesheet" href="css/checkOut.css">
 </head>
 <body>
-    <h1>Check Out</h1>
-    <p>Card Number:<input type="text" id="card_num" /></p>
-    <p>PIN:<input type="password" id="pin_num" /></p>
-    <p>Shipment Address:<input type="text" id="ship_address" /></p>
-    <p><input type="button" value="Confirm" onclick="location.href = 'ThankyouOrder.html'" id="ConfirmButton" /></p>
+    <header>
+        <h1>Check Out</h1>
+    </header>
+    <div class="container">
+        <label><b>Card Number</b></label>
+        <input type="text" placeholder="Enter card number" name="card_num" style="width:250px;height:30px;" required /><br />
+        <label><b>PIN</b></label>
+        <input type="password" placeholder="Enter PIN" name="pin" style="width:250px;height:30px;" required /><br />
+        <label><b>Shipment Address</b></label>
+        <input type="text" placeholder="Enter your address" name="ship_address" style="width:250px;height:30px;" required /><br />
+        <label><b>Billing Address</b></label>
+        <input type="text" placeholder="Enter bill address" name="bill_address" style="width:250px;height:30px;" required />
+    </div>
+
+    <a href="ThankyouOrder.html"><button onclick="">Confirm Order</button></a><br />
 </body>
 </html>

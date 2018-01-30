@@ -1,0 +1,36 @@
+﻿body {
+    text-align: center;
+    background-color: #cbcbcb
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: white;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+p {
+    font-family: 'Tw Cen MT';
+    font-size: 30px;
+    color: #b77dc4;
+}
+
+button {
+    background-color: #9bef2e;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+}
+
+    button:hover {
+        opacity: 0.6;
+    }
