@@ -1,8 +1,31 @@
 ﻿body {
     text-align: center;
     background-color: #cbcbcb;
+    font-family: 'Tw Cen MT';
+    color: white;
+    font-size: 40px;
 }
 
 mapholder{
     text-align:center;
+}
+
+button {
+    background-color: #9bef2e;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+}
+
+    button:hover {
+        opacity: 0.6;
+    }
+
+.returntohomebtn {
+    width: auto;
+    padding: 14px 40px;
+    background-color: #ff0000;
 }

@@ -4,6 +4,39 @@
     font-size:20px;
 }
 
+h1{
+    color:white;
+    text-indent:50px;
+}
+
+button {
+    left:10%;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width:auto;
+    padding:14px 40px;
+    background-color:#ff0000;
+}
+
+    button:hover {
+        opacity: 0.6;
+    }
+
+.rightreturnbtn {
+    left: 10%;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    padding: 14px 40px;
+    background-color: #111;
+}
+
 .split {
     height: 100%;
     width: 50%;
@@ -26,7 +59,7 @@
 
 .centered {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
