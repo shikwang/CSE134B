@@ -4,6 +4,38 @@
     font-family: 'Tw Cen MT';
     color: white;
     font-size: 40px;
+    margin: 0px;
+}
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #333333;
+}
+
+    .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        font-family: 'Tw Cen MT';
+    }
+
+        .topnav a:hover {
+            background-color: #808080;
+            color: black;
+        }
+
+.active {
+    background-color: #80f6d9;
+    color: black;
+}
+
+.topnav .icon {
+    display: none;
 }
 
 mapholder{
